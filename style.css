@@ -1,0 +1,72 @@
+.btn-search {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 10%;
+}
+.btn-search:hover {
+  background-color: RoyalBlue;
+}
+.container {
+  display: flex;
+}
+
+.column-search {
+  width: 30%;
+}
+.column-result {
+  width: 65%;
+}
+
+label {
+  display: flex;
+}
+.prev-search {
+  border: solid;
+  border-width: 1px;
+  margin: 1.5px;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.result-weather {
+  border: solid;
+  border-width: 1px;
+  display: block;
+}
+.search-input {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5px;
+  padding: 10px;
+}
+.search-input-value {
+  border: solid;
+  border-width: 1px;
+  margin: 1.5px;
+  padding: 10px;
+  width: 60%;
+  text-align: left;
+}
+.search-input-value:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.search-input-history {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 50%;
+  margin: 10px;
+}
+
+.weekday {
+  width: 150px;
+  height: 180px;
+  border: solid;
+}
