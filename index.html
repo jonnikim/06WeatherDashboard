@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Document</title>
+    <title>Weather API Dashboard</title>
   </head>
   <body>
     <div class="container">
@@ -24,8 +24,7 @@
           </button>
         </div>
         <div class="search-input-history">
-          <button class="prev-search" id="los angeles">Los Angeles</button>
-          <button class="prev-search" id="seoul">Seoul</button>
+        <h2>Search History</h2>
         </div>
       </div>
       <div class="column-result">
@@ -33,7 +32,7 @@
         <div>Temperature: <span id="city-temp"></span></div><br>
         <div>Humidity: <span id="city-humidity"></span></div><br>
         <div>Windspeed: <span id="city-windspeed"></span></div><br>
-        <div>UV-Index: <span id="city-UV"></span></div><br>
+        <div>UV-Index: <button id="city-UV" disabled></button></div><br>
         <div class="result-5-day">
           <div class="weekday">
             <div id="current-day"></div>
@@ -44,6 +43,7 @@
         </div>
       </div>
     </div>
+<div id="toast">Please input a valid city name</div>
     <script
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
       type="text/javascript"
