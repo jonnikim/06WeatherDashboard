@@ -1,3 +1,4 @@
+console.log("Hello?");
 const apiKey = "8d7cb35cdeae7a737f34484784f41497";
 let city, temperature, humidity, windspeed, UVindex;
 city = $("#city");
