@@ -21,7 +21,7 @@ function getData(URL) {
     let icon = $("<img>");
     icon.attr(
       "src",
-      "http://openweathermap.org/img/wn/" + response.weather[0].icon + ".png"
+      "https://openweathermap.org/img/wn/" + response.weather[0].icon + ".png"
     );
     city.append(icon);
 
@@ -31,7 +31,7 @@ function getData(URL) {
     let lon = response.coord.lon;
     let lat = response.coord.lat;
     let uvi =
-      "http://api.openweathermap.org/data/2.5/uvi?&lat=" +
+      "https://api.openweathermap.org/data/2.5/uvi?&lat=" +
       lat +
       "&lon=" +
       lon +
@@ -72,7 +72,7 @@ function getForecast(URL) {
       let foreicon = $("<img>");
       foreicon.attr(
         "src",
-        "http://openweathermap.org/img/wn/" +
+        "https://openweathermap.org/img/wn/" +
           response.list[i].weather[0].icon +
           ".png"
       );
