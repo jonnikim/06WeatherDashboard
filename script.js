@@ -136,7 +136,7 @@ if (lastSearch) {
       "&appid=" +
       apiKey;
     let forecastURL =
-      "http://api.openweathermap.org/data/2.5/forecast?q=" +
+      "https://api.openweathermap.org/data/2.5/forecast?q=" +
       target.target.textContent +
       "&units=imperial" +
       "&appid=" +
