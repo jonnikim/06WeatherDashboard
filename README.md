@@ -27,8 +27,10 @@ iii. Open index.html in browser
 
 Notable Technologies Used:
 - Jquery
-- OpenWeather API [Current][https://openweathermap.org/current][Forecast 5 Days][https://openweathermap.org/forecast5]
-- https://www.epochconverter.com/ for UTC time conversions
+- OpenWeather API 
+  - https://openweathermap.org/current
+  - https://openweathermap.org/forecast5]
+  - https://www.epochconverter.com/ for UTC time conversions
 
 
 When the user loads the page, they are given the option to add a new withdrawl/deposit
