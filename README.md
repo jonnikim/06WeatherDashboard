@@ -33,9 +33,6 @@ Notable Technologies Used:
   - https://www.epochconverter.com/ for UTC time conversions
 
 
-When the user loads the page, they are given the option to add a new withdrawl/deposit
-* Going offline should still allow you to add new withdrawl/deposits
-* Going back online should add the offline additions to the database
 
 
 ## Contributing
